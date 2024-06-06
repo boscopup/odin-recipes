@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 48px;
+    color: purple;
+    font-weight: bold;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 300px;
+    height: auto;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color:darkseagreen;
+}
+
+a:hover {
+    color:yellow;
+}
+
+.recipe {
+    background-color: darkslategray;
+    
+    padding: 5px;
+    align-items: baseline;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a three-colum layout */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+}
